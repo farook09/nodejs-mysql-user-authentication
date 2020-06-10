@@ -43,6 +43,6 @@ app.use('/',require('./routes/pages'));
 
 app.use('/auth',require('./routes/auth'))
 
-app.listen(process.env.PORT || 3004,(req,res) => {
+app.listen(3004,(req,res) => {
   console.log('Server started on port 3004');
 });

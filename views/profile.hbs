@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <nav>
+    <h2>Node MySQL</h2>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/profile">Profile</a></li>
+      <li><a href="/auth/logout">Logout</a></li>
+    </ul>
+  </nav>
+  <div class="container mt-4">
+    <h1>Welcome {{user.NAME}}</h1>
+    <div class="jumbotron">
+      <h1 class="display-4">Hello, {{user.NAME}}</h1>
+      <p class="lead">Thank you for registering and Login into this Project.This project is completed using Html 5,CSS 3,BOOTSTRAP, JAVASCRIPT, NODE JS,MySQL.</p>
+      <hr class="my-4">
+      <p>GIT and GITHUB are used as Version Control for this project.</p>
+      <p>Thank you.</p>
+      <a class="btn btn-primary btn-lg" href="/auth/logout" role="button">Logout</a>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+</body>
+</html>
